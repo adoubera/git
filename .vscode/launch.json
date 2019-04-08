@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestGraph",
+            "request": "launch",
+            "mainClass": "map.TestGraph",
+            "projectName": "git_1c500d2a"
+        }
+    ]
+}

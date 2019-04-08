@@ -3,6 +3,7 @@ package map;
 //顶点类
 public class Vertex {
     private String value;
+    public boolean visited;
 
     public Vertex(String value) {
         this.value = value;
