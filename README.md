@@ -1,3 +1,3 @@
 # git
 ### 好好学习，天天向上
-[数据结构]( https://adoubera.github.io/git/Binary"超链接title")
+[数据结构](https://adoubera.github.io/git/Binary)
