@@ -70,3 +70,60 @@ B+树非叶子结点不存储信息，叶子结点存储信息，叶子结点最
 
 ##### 图的广度优先算法
 使用队列来记录遍历过的顶点，先进先出
+
+```java
+//class Graph
+package map;
+
+//图
+public class Graph {
+    private Vertex[] vertex;
+    private int currentSize;
+    // 邻接矩阵
+    private int[][] adjMat;
+
+    public Graph(int size) {
+
+        vertex = new Vertex[size];
+        adjMat = new int[size][size];
+    }
+
+    public void addVertex(Vertex v) {
+        vertex[currentSize++] = v;
+
+    }
+}
+```
+```java
+
+package map;
+
+//顶点类
+public class Vertex {
+    private String value;
+
+    public Vertex(String value) {
+        this.value = value;
+    }
+
+    /**
+     * @return the value
+     */
+    public String getValue() {
+        return value;
+    }
+
+    /**
+     * @param value the value to set
+     */
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return "Vertex [value=" + value + "]";
+    }
+
+}
+```
